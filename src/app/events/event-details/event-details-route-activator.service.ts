@@ -5,7 +5,7 @@ import { EventService } from '../shared/event.service';
 @Injectable({
   providedIn: 'root'
 })
-export class EventRouteActivatorService implements CanActivate {
+export class EventDetailsRouteActivatorService implements CanActivate {
 
   constructor(
     private eventService: EventService,
