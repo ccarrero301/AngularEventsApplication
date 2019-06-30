@@ -9,6 +9,7 @@ import { EventThumbnailComponent } from '../events/event-thumbnail/event-thumbna
 import { NavBarComponent } from '../nav/navbar.component';
 import { EventDetailsComponent } from '../events/event-details/event-details.component';
 import { CreateEventComponent } from '../events/create-event/create-event.component';
+import { Error404Component } from '../errors/404/404.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { CreateEventComponent } from '../events/create-event/create-event.compon
     EventThumbnailComponent,
     NavBarComponent,
     EventDetailsComponent,
-    CreateEventComponent
+    CreateEventComponent,
+    Error404Component
   ],
   providers: [],
   bootstrap: [EventsAppComponent]
