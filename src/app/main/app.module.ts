@@ -8,7 +8,8 @@ import {
   EventThumbnailComponent,
   EventDetailsComponent,
   CreateEventComponent,
-  CreateSessionComponent
+  CreateSessionComponent,
+  SessionListComponent
 } from '../events/index';
 
 import { appRoutes } from '../routes';
@@ -31,6 +32,7 @@ import { EventsAppComponent } from './events-app.component';
     EventDetailsComponent,
     CreateEventComponent,
     CreateSessionComponent,
+    SessionListComponent,
     Error404Component
   ],
   providers: [],
