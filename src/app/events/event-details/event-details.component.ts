@@ -22,6 +22,9 @@ export class EventDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe(route => {
       this.event = this.eventService.getEvent(+route['id']);
+      this.addMode = false;
+      this.filterBy = 'all';
+      this.sortBy = 'votes';
     });
   }
 
