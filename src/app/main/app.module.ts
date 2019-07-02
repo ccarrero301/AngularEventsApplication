@@ -10,7 +10,8 @@ import {
   CreateEventComponent,
   CreateSessionComponent,
   SessionListComponent,
-  DurationPipe
+  DurationPipe,
+  UpVoteComponent
 } from '../events/index';
 
 import { appRoutes } from '../routes';
@@ -51,6 +52,7 @@ let jQuery = window['$'];
     SimpleModalComponent,
     ModalTriggerDirective,
     DurationPipe,
+    UpVoteComponent,
     Error404Component
   ],
   providers: [
