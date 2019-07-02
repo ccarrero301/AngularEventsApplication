@@ -11,7 +11,8 @@ import {
   CreateSessionComponent,
   SessionListComponent,
   DurationPipe,
-  UpVoteComponent
+  UpVoteComponent,
+  LocationValidatorDirective
 } from '../events/index';
 
 import { appRoutes } from '../routes';
@@ -53,6 +54,7 @@ let jQuery = window['$'];
     ModalTriggerDirective,
     DurationPipe,
     UpVoteComponent,
+    LocationValidatorDirective,
     Error404Component
   ],
   providers: [
