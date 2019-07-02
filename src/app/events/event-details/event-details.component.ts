@@ -20,12 +20,12 @@ export class EventDetailsComponent implements OnInit {
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.route.params.subscribe(route => {
-      this.event = this.eventService.getEvent(+route['id']);
+    this.route.data.forEach(data => {
+      this.event = data['event'];
       this.addMode = false;
       this.filterBy = 'all';
       this.sortBy = 'votes';
-    });
+      });
   }
 
   addSession(): void {
